@@ -1,0 +1,44 @@
+* 
+h3 {
+  text-align: left;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: right;
+  font-weight: bold;
+  margin: 0% 5%
+}
+
+#timer {
+   text-align: right; 
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: medium;
+}
+
+#play {
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  margin: 5% 47%;
+  text-align: center;
+  background: green;
+}
+
+#questions {
+  text-align: center
+}
+
+.btns {
+  background-color: goldenrod;
+  font-size: 24px;
+  border-radius: 10px;
+  display: center;
+}

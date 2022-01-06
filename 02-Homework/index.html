@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Homework</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <nav>
+      <h3>High Scores</h3>
+      <h2>Time Remaining</h2>
+    </nav>
+
+    <div id="timer"></div>
+    <section id="opening">
+      <h1>Fun Quiz</h1>
+      <p>
+        Answer all the questions before the timer runs out. If you get a
+        question wrong you will lose 10 sceonds on the timer.
+      </p>
+      <p>When you are done enter your initials to store your score!</p>
+      <button id="play">Play</button>
+    </section>
+
+    <section id="questions" hidden>
+      <h1 id="title">question</h1>
+
+      <div><button id="btn1" class="btns"></button></div>
+      <div><button id="btn2" class="btns"></button></div>
+      <div><button id="btn3" class="btns"></button></div>
+      <div><button id="btn4" class="btns"></button></div>
+    </section>
+
+    <!--quiz end your final score page -->
+
+    <!--<h1>Your Final Score</h1>--
+
+  <!-- last page high score and initals view need to add a interna storage thing in js-->
+
+    <section id="sub-int" hidden>
+        <h1>Final Score</h1>
+        <p>enter your initials below to store your final score</p>
+        <div>
+          <input type="text" placeholder="initials" id="initials" />
+          <button id="submitBtn" class="controls">Submit</button>
+        </div>
+    </section>
+
+ <a href = "index2.html">Local Storage</a> -->
+
+    <script src="js.js"></script>
+  </body>
+</html>
