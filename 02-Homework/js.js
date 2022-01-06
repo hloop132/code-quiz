@@ -49,9 +49,8 @@ var initialsEl = document.querySelector("#initials");
 var submitBtn = document.querySelector("#submitBtn");
 
 var localStorage = document.querySelector("#local-storage");
-var goBackBtn = document.querySelector("#go-back-btn");
+var startOverBtn = document.querySelector("#start-over-btn");
 var clearBtn = document.querySelector("#clear-high-btn");
-var lsOutput = document.querySelector("#lsOutput");
 
 function setTime() {
   timerInterval = setInterval(function () {
@@ -128,17 +127,33 @@ function localStorageFun() {
 submitBtn.addEventListener("click", selectfinalScore);
 
 var score = 0;
-var highscore = localStorage.getItem("highscore")
+var highscore = localStorage.getItem("localStorage")
 
 if(highscore !== null){
   if (score > highscore) {
-    localStorage.setItem("highscore", score);
+    localStorage.setItem("localStorage", score);
   }
   else{ 
     localStorage.setItem("score", score);
   }
+
+  // var localStorage = [];
+  // function addScore(init, score){
+  //     highScore.push([initialsEl:init, timerInterval:score])
+  // }
 }
+  // object.addEventListener("click", myScript);
+  // ClearBtn.addEventListener("click", clear) {
+  //   var clear = clear
+
+// startOverBtn.addEventListener("click",  
+//   <a href = "index2.html"><h3>High Scores</h3></a>);
+// }
 //how to link seperate html
 //how to store all scores in an array
 //how do you add to an array
 //how do you pull array out of lpocal straoge and display it
+
+// var localStorage = document.querySelector("#local-storage");
+// var startOverBtn = document.querySelector("#go-back-btn");
+// var clearBtn = document.querySelector("#clear-high-btn");
