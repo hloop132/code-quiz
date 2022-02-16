@@ -1,25 +1,22 @@
-# project-four-hw
-a fun quiz
+# Code Quiz
 
+## Description
+a fun quiz with fun facts
+
+## Instructions
 Getting Started
 click start button
 play quiz
 answer a question wrong lose 10 seconds
-if you beat thre timer that is you score at the end
+if you beat the timer that is you score at the end
 enter your initials in the box to keep your high score
 then you can play the game again or clear your high score
 
-my motivatiation for this project was to learn how to use html, css, and javascript together
+## Authors
+Heather Loop 
 
-i built this project to learn coding 
-
-what i solved during this is a better understanding for functions, an dhow to work out bugs better
-
-Authors
-heather loop 
-
-License
+## License
 This project is licensed 
 
-Acknowledgments
-thank you to everyone who helped me and myself for trying to get through this
+## Acknowledgments
+Hanna Folk, Brett, Louis
